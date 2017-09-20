@@ -14,5 +14,10 @@
     "npm"
   ],
   "author": "Luis Fernando Targas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
 }
