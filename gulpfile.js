@@ -14,10 +14,8 @@ gulp.task('compilarReduzirCSS', function(){
 	.pipe(gulp.dest('./dist/css'));
 });
 
-gulp.task('watchHTML', function(){
-	gulp.watch('./source/index.html', ['reduzirHTML']);
-});
 
-gulp.task('watchCSS', function(){
+gulp.task('monitorar', function(){
+	gulp.watch('./source/index.html', ['reduzirHTML']);
 	gulp.watch('./source/scss/*.scss', ['compilarReduzirCSS']);
 });
