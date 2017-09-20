@@ -1,0 +1,18 @@
+{
+  "name": "tarefa1",
+  "version": "1.0.0",
+  "description": "Tarefa do módulo 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tarefa",
+    "Módulo4",
+    "boilerplate",
+    "gulp",
+    "npm"
+  ],
+  "author": "Luis Fernando Targas",
+  "license": "ISC"
+}
